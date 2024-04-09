@@ -1,7 +1,7 @@
 # Violence datasets for the United States
 
 
-This project makes available two violence datasets built with daily event data sourced from [Project GDELT Events Database](http://data.gdeltproject.org/events/index.html) and GIS data sourced from [OpenStreetMap](https://www.openstreetmap.org).
+This project makes available two violence datasets built with daily event data sourced from [Project GDELT Events Database](http://data.gdeltproject.org/events/index.html) and GIS data sourced from [OpenStreetMap](https://www.openstreetmap.org). These violence datasets cover all types of violent crime including reported sexual assault and are suited for social science research on crime and other related topics.
 
 The GDELT event data was collected by a series of algorithms with day-level granularity. Please see the table below for algorithm version details.
 
@@ -15,8 +15,13 @@ The OpenStreetMap GIS data was collected using [Nominatim API](https://nominatim
 
 #### Datasets for USA
 
-1. violent events dataset - 1,523,964 violent events in the United States between January 1, 2019 and March 1, 20124 stored in json format.The size of this uncompressed dataset is 2.20 GB.
-2. resported sexual assault GIS dataset - 163,169 geolocated reported sexual assaults in the United States between January 1, 2019 and March 1, 20124 stored in geojson format. The size of this uncompressed dataset is 1.23 GB.
+1. **violent events dataset - 1,523,964 records** of violent events in the United States between January 1, 2019 and March 1, 20124 recorded at the day-level and stored in json format. The total size of this uncompressed dataset is 2.20 GB.
+2. **reported sexual assault GIS dataset - 163,169 records** of reported sexual assaults in the United States between January 1, 2019 and March 1, 20124 recorded at the day-level, integrated with GIS data, and stored in geojson format. The total size of this uncompressed dataset is 1.23 GB.
 
-#### Time series 
+#### Time series of violent events per GDELT algorithm version
+![violent events dataset v1](https://github.com/haayanau/USA_violence_datasets/blob/master/images/v1.PNG "Time Series Plot v1")
+
+![violent events dataset v2](https://github.com/haayanau/USA_violence_datasets/blob/master/images/v2.PNG "Time Series Plot v2")
+
+![violent events dataset v3](https://github.com/haayanau/USA_violence_datasets/blob/master/images/v2.PNG "Time Series Plot v3")
 

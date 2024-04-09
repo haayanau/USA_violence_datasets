@@ -39,5 +39,5 @@ _GDELT algorithm v2: January 2006 to March 2013_
 
 _GDELT algorithm v3: April 2013 to February 2024_
 
-![violent events dataset v3](https://github.com/haayanau/USA_violence_datasets/blob/master/images/v2.PNG "Time Series Plot v3")
+![violent events dataset v3](https://github.com/haayanau/USA_violence_datasets/blob/master/images/v3.PNG "Time Series Plot v3")
 

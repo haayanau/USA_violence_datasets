@@ -16,18 +16,28 @@ The OpenStreetMap GIS data was collected using [Nominatim API](https://nominatim
 #### Datasets for USA
 
 1. **violent events dataset - 1,523,964 records** of violent events in the United States between January 1, 2019 and March 1, 20124 recorded at the day-level and stored in json format. The total size of this uncompressed dataset is 2.20 GB.
+
+|algorithm version| violent events | reported sexual assault
+| --- |--- | --- |
+|v1| 48,832| 2,807|
+|v2| 390,697| 44,707|
+|v3| 1,084,435| 120,083|
+|total|1,523,964| 168,437|
+
+
+
 2. **reported sexual assault GIS dataset - 163,169 records** of reported sexual assaults in the United States between January 1, 2019 and March 1, 20124 recorded at the day-level, integrated with GIS data, and stored in geojson format. The total size of this uncompressed dataset is 1.23 GB.
 
 #### Time series of violent events per GDELT algorithm version
-GDELT algorithm v1: January 1979 to December 2005
+_GDELT algorithm v1: January 1979 to December 2005_
 
 ![violent events dataset v1](https://github.com/haayanau/USA_violence_datasets/blob/master/images/v1.PNG "Time Series Plot v1")
 
-GDELT algorithm v2: January 2006 to March 2013
+_GDELT algorithm v2: January 2006 to March 2013_
 
 ![violent events dataset v2](https://github.com/haayanau/USA_violence_datasets/blob/master/images/v2.PNG "Time Series Plot v2")
 
-GDELT algorithm v3: April 2013 to February 2024
+_GDELT algorithm v3: April 2013 to February 2024_
 
 ![violent events dataset v3](https://github.com/haayanau/USA_violence_datasets/blob/master/images/v2.PNG "Time Series Plot v3")
 
